@@ -1,0 +1,25 @@
+{
+  "name": "nango-mcp-client-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.21",
+    "@modelcontextprotocol/sdk": "^1.11.2",
+    "ai": "^4.3.15",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0"
+  }
+}
